@@ -25,7 +25,7 @@ According to InteractiveBrokers Historical Data Limitations - Pacing Violations(
 
 ## NinjaTrader8 Download Module
 According to 'NinjaTrader8 - Historical Data - Load' module, users could choose the following items to download historical data:
-- Intervals: Tick / Minute / Day
+- Intervals: Tick / Minute / Day (NinjaTrader8 can generate longer intervals from shorter ones)
 - Tick Types: Ask / Bid / Last
 - Start Date & End Date
 Unfortunately, NinjaTrader8 does not set a coldown for a too long requesting period and sometimes hit the IB violations .
@@ -33,8 +33,8 @@ Unfortunately, NinjaTrader8 does not set a coldown for a too long requesting per
 ## Continuous Download Solution
 NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader(able to export database) and well-tested connection with IB Gateway.
 This script mainly imports *pywinauto* to implement a automation of NinjaTrader8 UI to realize IB historical data continuous download.
-- For "Tick" data, requesting period would split into 30 Mins.
-- For "Minute" data, requesting period would split into 2 Days.
+- For "Tick" data, requesting period would be divided into 30 Mins.
+- For "Minute" data, requesting period would be divided into 2 Days.
 
 ## How to use
 To be continued...
