@@ -15,6 +15,7 @@ According to InteractiveBrokers Historical Data Limitations - Pacing Violations,
 - Bars which size is 30 seconds or less older than six months.
 
 || *Bar Size* || *Valid Duration* ||
+
 || 1 Min || 2D, 1D, 4H, 2H, 1H ||
 
 ## NinjaTrader8 Download Module
