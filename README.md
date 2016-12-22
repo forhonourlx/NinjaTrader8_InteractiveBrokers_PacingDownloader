@@ -15,7 +15,7 @@ According to InteractiveBrokers Historical Data Limitations - Pacing Violations,
 - Bars which size is 30 seconds or less older than six months.
 - Note: BID_ASK counts as two requests.
 - Note: The TWS is designed to accept up to 50 messages(i.e. requesting data, placing orders, requesting your portfolio... etc.) per second coming from the client side.
-- Note: Old IB API guidelines state that each request should not contain more than 2000 bars.
+- Note: Old IB API guidelines state that each request should contain no more than 2000 bars.
 
 || *Bar Size* || *Valid Duration* ||
 
@@ -33,6 +33,7 @@ to download historical data.
 ## Continuous Download Solution
 NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader(able to export database) and well-tested connection with IB Gateway.
 This script mainly imports *pywinauto* to implement a automation of NinjaTrader8 UI to realize IB historical data continuous download.
-- For "Tick" data, requesting period would split into 30
+- For "Tick" data, requesting period would split into 30 Mins.
+- For "Minute" data, requesting period would split into 2 Days.
 
 ## How to use
