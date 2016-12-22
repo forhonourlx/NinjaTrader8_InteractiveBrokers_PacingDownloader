@@ -28,6 +28,7 @@ According to 'NinjaTrader8 - Historical Data - Load' module, users could choose 
 - Intervals: Tick / Minute / Day (NinjaTrader8 can generate longer intervals from shorter ones)
 - Tick Types: Ask / Bid / Last
 - Start Date & End Date
+
 Unfortunately, NinjaTrader8 does not set a coldown for a too long requesting period and sometimes hit the IB violations .
 
 ## Continuous Download Solution
