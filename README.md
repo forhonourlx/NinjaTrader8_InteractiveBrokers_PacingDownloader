@@ -30,4 +30,5 @@ According to 'NinjaTrader8 - Historical Data - Load' module, users could choose:
 to download historical data.
 
 ## Continuous Download Solution
+NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader and well-tested connection with IB Gateway.
 
