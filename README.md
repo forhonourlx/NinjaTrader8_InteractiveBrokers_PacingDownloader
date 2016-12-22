@@ -1,5 +1,5 @@
 # NinjaTrader8_InteractiveBrokers_PacingDownloader
-A python script for NinjaTrader8("NT8") users to obtain InteractiveBrokers("IB") historical data continiously without hitting pacing violations.
+A python script for NinjaTrader8("NT8") users to obtain InteractiveBrokers("IB") historical data continuously(no interruption) without hitting pacing violations.
 
 ## Tested Software Version
 - NinjaTrader 8.0.2.0 (December 5, 2016 released)
@@ -31,4 +31,4 @@ to download historical data.
 
 ## Continuous Download Solution
 NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader and well-tested connection with IB Gateway.
-
+This script would import *pywinauto* to implement a automation of NinjaTrader8 UI to realize IB historical data continuous download
