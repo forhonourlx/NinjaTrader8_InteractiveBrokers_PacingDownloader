@@ -1,5 +1,5 @@
 # NinjaTrader8_InteractiveBrokers_PacingDownloader
-A python script for NinjaTrader8 users to obtain InteractiveBrokers("IB") historical data continiously without hitting pacing violations.
+A python script for NinjaTrader8("NT8") users to obtain InteractiveBrokers("IB") historical data continiously without hitting pacing violations.
 
 ## Tested Software Version
 - NinjaTrader 8.0.2.0 (December 5, 2016 released)
@@ -14,6 +14,7 @@ According to InteractiveBrokers Historical Data Limitations - Pacing Violations,
 - Making more than 60 requests within any ten minute period.
 - Bars which size is 30 seconds or less older than six months.
 - Note: BID_ASK counts as two requests.
+- Note: The TWS is designed to accept up to 50 messages(i.e. requesting data, placing orders, requesting your portfolio... etc.) per second coming from the client side.
 
 || *Bar Size* || *Valid Duration* ||
 
@@ -27,4 +28,6 @@ According to 'NinjaTrader8 - Historical Data - Load' module, users could choose:
 - Start Date & End Date
 - Tick Types: Ask / Bid / Last
 to download historical data.
+
+## Continuous Download Solution
 
