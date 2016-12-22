@@ -19,5 +19,12 @@ According to InteractiveBrokers Historical Data Limitations - Pacing Violations,
 
 || 1 Min || 2D, 1D, 4H, 2H, 1H... ||
 
+|| 1 Tick(Sec) || 30Mins, 15Mins, 5Mins, 1Min... ||
+
 ## NinjaTrader8 Download Module
-According to 'NinjaTrader8 - Historical Data - Load' module, 
+According to 'NinjaTrader8 - Historical Data - Load' module, users could choose:
+- Intervals: Tick / Minute / Day
+- Start Date & End Date
+- Tick Types: Ask / Bid / Last
+to download historical data.
+
