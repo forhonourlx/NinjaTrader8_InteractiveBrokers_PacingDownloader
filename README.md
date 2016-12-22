@@ -13,10 +13,11 @@ According to InteractiveBrokers Historical Data Limitations - Pacing Violations,
 - Making six or more historical data requests for the same Contract, Exchange and Tick Type within two seconds.
 - Making more than 60 requests within any ten minute period.
 - Bars which size is 30 seconds or less older than six months.
+- Note: BID_ASK counts as two requests.
 
 || *Bar Size* || *Valid Duration* ||
 
-|| 1 Min || 2D, 1D, 4H, 2H, 1H ||
+|| 1 Min || 2D, 1D, 4H, 2H, 1H... ||
 
 ## NinjaTrader8 Download Module
 According to 'NinjaTrader8 - Historical Data - Load' module, 
