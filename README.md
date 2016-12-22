@@ -37,3 +37,4 @@ This script mainly imports *pywinauto* to implement a automation of NinjaTrader8
 - For "Minute" data, requesting period would split into 2 Days.
 
 ## How to use
+To be continued...
