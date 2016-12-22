@@ -30,5 +30,8 @@ According to 'NinjaTrader8 - Historical Data - Load' module, users could choose:
 to download historical data.
 
 ## Continuous Download Solution
-NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader and well-tested connection with IB Gateway.
-This script would import *pywinauto* to implement a automation of NinjaTrader8 UI to realize IB historical data continuous download
+NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader(able to export database) and well-tested connection with IB Gateway.
+This script mainly imports *pywinauto* to implement a automation of NinjaTrader8 UI to realize IB historical data continuous download.
+
+
+## How to use
