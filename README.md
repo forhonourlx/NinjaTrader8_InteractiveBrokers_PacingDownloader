@@ -8,6 +8,7 @@ A python script for NinjaTrader8("NT8") users to obtain InteractiveBrokers("IB")
 
 ## IB Pacing Violations
 http://interactivebrokers.github.io/tws-api/historical_limitations.html
+https://www.interactivebrokers.com/en/software/api/apiguide/tables/historical_data_limitations.htm
 
 According to InteractiveBrokers Historical Data Limitations - Pacing Violations(if hitting the violations, a 5-min penalty disconnect will occur), the main obstacles from continously downloading are the following violations:
 - Making six or more historical data requests for the same Contract, Exchange and Tick Type within two seconds.
