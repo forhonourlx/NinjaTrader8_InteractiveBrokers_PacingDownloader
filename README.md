@@ -31,6 +31,7 @@ According to 'NinjaTrader8 - Historical Data - Load' module, users could choose 
 - Start Date & End Date
 
 Unfortunately, NinjaTrader8 does not set a coldown for a too long requesting period and sometimes hit the IB violations .
+The IB adapter attempts to queue a request every 5secs.
 
 ## Continuous Download Solution
 NinjaTrader8 is a "free"(as if no live trading) trading software, which has a nice database manager & downloader(able to export database) and well-tested connection with IB Gateway.
